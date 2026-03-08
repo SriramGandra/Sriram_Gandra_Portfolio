@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy: #0A192F;
+  --color-dark: #112240;
+  --color-electric: #64FFDA;
+  --color-text-main: #CCD6F6;
+  --color-highlight: #FF9F43;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-navy);
+    color: var(--color-text-main);
+    overflow-x: hidden;
+    cursor: none; /* For custom cursor */
+  }
+
+  /* Make links and buttons also hide default cursor so our custom one handles it */
+  a, button, input, textarea, select {
+    cursor: none;
+  }
+}
+
+/* Glassmorphism utility */
+.glass {
+  background: rgba(17, 34, 64, 0.7);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(100, 255, 218, 0.1);
+}
+
+/* Glow effects */
+.glow-text {
+  text-shadow: 0 0 10px rgba(100, 255, 218, 0.5);
+}
+
+.glow-box:hover {
+  box-shadow: 0 0 20px rgba(100, 255, 218, 0.4);
+}
