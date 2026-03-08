@@ -17,6 +17,12 @@ const Experience = () => {
     },
     {
       role: 'Active Member',
+      company: 'IEEE(Institute of Electrical and Electronics Engineers)',
+      description: 'Participated in numerous technical workshops, coding activities, and collaborative tech initiatives.',
+      date: 'August 2025 - Present'
+    },
+    {
+      role: 'Active Member',
       company: 'CSI (Computer Society of India)',
       description: 'Participated in numerous technical workshops, coding activities, and collaborative tech initiatives.',
       date: 'August 2025 - Present'
