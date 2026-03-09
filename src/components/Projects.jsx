@@ -13,7 +13,7 @@ const projects = [
   {
     title: 'Smart Community Platform',
     description: 'A comprehensive community management platform for residents. Integrates announcements, services tracking, and real-time maintenance requests.',
-    tech: ['MERN Stack', 'TailwindCSS', 'Socket.io', 'JWT'],
+    tech: ['MERN Stack', 'TailwindCSS','React', 'Node.js', 'Express','MongoDB'],
     github: 'https://github.com/SriramGandra/Smart_Building_Automation.git',
     live: null
   },
