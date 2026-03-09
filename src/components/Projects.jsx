@@ -6,7 +6,7 @@ const projects = [
   {
     title: 'Yukti AI',
     description: 'An AI coding assistant that seamlessly analyzes and improves code across 20+ languages. Features real-time refactoring and deep architecture insights.',
-    tech: ['React', 'Node.js', 'Express', 'OpenAI API', 'MongoDB'],
+    tech: ['React', 'Node.js', 'Express', 'Groq API', 'MongoDB'],
     github: 'https://github.com/SriramGandra/YuktiAI.git',
     live: 'https://69863eddbe5019000709d638--yukti-ai.netlify.app/'
   },
