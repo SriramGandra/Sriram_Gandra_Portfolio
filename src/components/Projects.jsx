@@ -27,8 +27,8 @@ const projects = [
   {
     title: 'Campus to Corporate Application',
     description: 'An educational application aimed at helping students easily transition into corporate environments with structured learning paths.',
-    tech: ['React', 'Express', 'MongoDB', 'AWS S3'],
-    github: null,
+    tech: ['React', 'Express', 'MongoDB', 'Node.js'],
+    github: https://github.com/shivakumargunda11/EVENT_CONNECT.git,
     live: null
   },
   {
