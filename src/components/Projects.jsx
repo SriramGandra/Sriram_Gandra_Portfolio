@@ -15,7 +15,7 @@ const projects = [
     description: 'A comprehensive community management platform for residents. Integrates announcements, services tracking, and real-time maintenance requests.',
     tech: ['MERN Stack', 'TailwindCSS','React', 'Node.js', 'Express','MongoDB'],
     github: 'https://github.com/SriramGandra/Smart_Building_Automation.git',
-    live: null
+    live: 'https://smart-community-automation.vercel.app/'
   },
   {
     title: 'Event Management Application',
@@ -28,7 +28,7 @@ const projects = [
     title: 'Campus to Corporate Application',
     description: 'An educational application aimed at helping students easily transition into corporate environments with structured learning paths.',
     tech: ['React', 'Express', 'MongoDB', 'Node.js'],
-    github: https://github.com/shivakumargunda11/EVENT_CONNECT.git,
+    github: 'https://github.com/shivakumargunda11/EVENT_CONNECT.git',
     live: null
   },
   {
